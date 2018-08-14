@@ -10,5 +10,3 @@ def display_board(board)
     end
   end
 end
-
-puts(display_board)
