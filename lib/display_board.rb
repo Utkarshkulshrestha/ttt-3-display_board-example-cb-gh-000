@@ -2,7 +2,7 @@
 spaces = 0
 dash = 0
 def display_board
-      3.times("   |")
+      3.time("   |")
    puts("/n"+"----------")
 end
 
