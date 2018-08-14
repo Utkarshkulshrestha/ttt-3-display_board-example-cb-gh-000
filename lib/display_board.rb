@@ -8,4 +8,4 @@ def display_board
   end
 end
 
-puts(display_board)
+display_board
