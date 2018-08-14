@@ -2,8 +2,11 @@
 spaces = 0
 dash = 0
 def display_board
-  3.times{print "   |"}
-  3.times{print "----------"}
+  while i <=3
+    3.times{print "   |"}
+    3.times{print "----------"}
+    i ++
+  end
 end
 
 puts(display_board)
