@@ -7,8 +7,8 @@ def display_board
       puts("   ")
       puts("|")
       spaces++
-  break
+      break
    puts("/n"+"----------")
    dash ++
- break
-display_board
+   break
+puts("display_board")
