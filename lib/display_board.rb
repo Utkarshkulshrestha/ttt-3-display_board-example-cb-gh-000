@@ -5,7 +5,7 @@ def display_board
     3.times{print "   |"}
     3.times{print "----------"}
     i ++
-  end
+
 end
 
 display_board
