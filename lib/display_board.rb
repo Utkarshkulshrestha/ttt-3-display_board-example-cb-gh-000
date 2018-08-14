@@ -11,3 +11,4 @@ def display_board
    puts("/n"+"----------")
    dash ++
  break
+display_board
