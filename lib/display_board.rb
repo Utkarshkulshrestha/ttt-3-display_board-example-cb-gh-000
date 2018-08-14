@@ -2,14 +2,8 @@
 spaces = 0
 dash = 0
 def display_board
-  while dash < 4
-    until spaces <= 3
-      puts("   ")
-      puts("|")
-      spaces++
-      break
+      3.times("   |")
    puts("/n"+"----------")
-   dash ++
-   break
 end
+
 puts(display_board)
