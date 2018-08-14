@@ -1,7 +1,12 @@
 # Define a method display_board that prints a 3x3 Tic Tac Toe Board
-i=0
-def display_board
-  while i <=3
-    3.times{print "   |"}
-    3.times{print "----------"}
-    i ++
+board=["   ","   ","   ","   ","   ","   ","   ","   ","   "]
+def display_board(board)
+  for i in 0...9
+    print "   "
+    if (i+1)%3 != 0
+      print " |"
+    elsif i != 9
+       print " \n#{'-'*11}\n"
+    end
+  end
+end
